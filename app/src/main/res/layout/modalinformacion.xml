@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right|center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/botonCerrar"
+        android:layout_width="76dp"
+        android:layout_height="34dp"
+        android:text="Cerrar"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txt_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="descripción"
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/txt_autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUTOR"
+        android:textSize="10sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/txt_tecnica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Técnica"
+        android:textSize="10sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/txt_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicación"
+        android:textSize="10sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/txt_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FECHA"
+        android:textSize="10sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/botonEscuchar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Escuchar"
+        app:icon="@android:drawable/ic_lock_silent_mode_off"
+        app:iconGravity="end" />
+
+
+</LinearLayout>
